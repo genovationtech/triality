@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "name": "thermal",
+      "module_name": "thermal_hydraulics",
+      "config": {
+        "solver": {"n_axial": 8, "n_fuel_radial": 6, "mass_flux": 3000.0},
+        "solve": {"peak_linear_heat_rate": 140.0, "axial_shape": "uniform"}
+      },
+      "initial_state": null,
+      "metadata": {"template": "thermal_to_conjugate_heat"}
+    },
+    {
+      "name": "cht",
+      "module_name": "conjugate_heat_transfer",
+      "config": {
+        "solver": {"nx": 8, "ny_solid": 4, "ny_fluid": 8, "Q_vol": 150000.0, "T_init": 345.0, "T_fluid_top": 340.0},
+        "solve": {"t_end": 0.002, "dt": 0.0005, "max_coupling_iter": 4, "save_interval": 1}
+      },
+      "initial_state": null,
+      "metadata": {"template": "thermal_to_conjugate_heat"}
+    }
+  ],
+  "links": [
+    {"source": "thermal", "target": "cht", "source_field": "temperature", "target_field": "temperature", "required": true, "target_unit": "degC", "scale": 1.0, "offset": 0.0, "aggregation": "mean", "resample_points": null}
+  ]
+}

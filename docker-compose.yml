@@ -1,0 +1,44 @@
+# ============================================================================
+#  Triality — Docker Compose
+#  Genovation Technological Solutions Pvt Ltd — Powered by Mentis OS
+# ============================================================================
+
+services:
+  triality:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: triality
+    ports:
+      - "${TRIALITY_PORT:-8510}:8510"
+    environment:
+      - TRIALITY_HOST=0.0.0.0
+      - TRIALITY_PORT=8510
+      - TRIALITY_LLM_MODEL=${TRIALITY_LLM_MODEL:-}
+    volumes:
+      - ./output:/app/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8510/')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  triality-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: triality-dev
+    ports:
+      - "${TRIALITY_PORT:-8510}:8510"
+    environment:
+      - TRIALITY_HOST=0.0.0.0
+      - TRIALITY_PORT=8510
+    volumes:
+      - ./lib:/app/lib
+      - ./triality_app:/app/triality_app
+      - ./output:/app/output
+    command: uvicorn triality_app.main:app --host 0.0.0.0 --port 8510 --reload
+    profiles:
+      - dev

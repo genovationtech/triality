@@ -1,0 +1,244 @@
+# ============================================================================
+#  Triality — .gitignore
+#  Genovation Technological Solutions Pvt Ltd — Powered by Mentis OS
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+#  Warehouse (unreleased features)
+# ---------------------------------------------------------------------------
+warehouse/
+
+# ---------------------------------------------------------------------------
+#  AI / Agent Tooling
+# ---------------------------------------------------------------------------
+.claude/
+.codex/
+.cursor/
+.aider*
+.copilot/
+.codeium/
+.tabnine/
+.windsurf/
+.devin/
+.bolt/
+.v0/
+.lovable/
+.replit/
+.idx/
+.continue/
+.cody/
+.sourcegraph/
+.kodu/
+.roo/
+.amazonq/
+.gemini/
+.junie/
+.augment/
+ai_context/
+.ai/
+
+# ---------------------------------------------------------------------------
+#  Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+sdist/
+develop-eggs/
+.installed.cfg
+lib64/
+parts/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.virtualenv/
+.conda/
+conda-env/
+
+# Python Tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.pyright/
+pyrightconfig.json
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.tox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+nosetests.xml
+profile_default/
+ipython_config.py
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------------------------------------------------------------------------
+#  Rust
+# ---------------------------------------------------------------------------
+target/
+Cargo.lock
+**/*.rs.bk
+
+# ---------------------------------------------------------------------------
+#  Node / JavaScript / Frontend
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bower_components/
+
+# ---------------------------------------------------------------------------
+#  Environment & Secrets
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+secrets/
+credentials/
+*.secret
+service-account*.json
+
+# ---------------------------------------------------------------------------
+#  IDE / Editor
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.factorypath
+*.iml
+*.iws
+*.ipr
+.editorconfig
+*.code-workspace
+.history/
+.ionide/
+
+# ---------------------------------------------------------------------------
+#  OS Files
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---------------------------------------------------------------------------
+#  Docker
+# ---------------------------------------------------------------------------
+docker-compose.override.yml
+.docker/
+
+# ---------------------------------------------------------------------------
+#  Logs & Temp
+# ---------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+*.pid
+*.seed
+
+# ---------------------------------------------------------------------------
+#  Data & Output
+# ---------------------------------------------------------------------------
+*.h5
+*.hdf5
+*.nc
+*.csv
+!lib/triality/tests/fixtures/*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.dat
+*.npy
+*.npz
+output/
+results/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!triality_app/static/*.svg
+!docs/images/
+!assets/images/**
+
+# ---------------------------------------------------------------------------
+#  Frontend Build Output
+# ---------------------------------------------------------------------------
+frontend/dist_temp/
+triality_app/static/dist/
+
+# ---------------------------------------------------------------------------
+#  Build & Distribution
+# ---------------------------------------------------------------------------
+*.o
+*.a
+*.dylib
+*.dll
+*.exe
+site/
+public/
+_build/

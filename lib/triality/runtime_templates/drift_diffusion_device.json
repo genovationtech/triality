@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "name": "device",
+      "module_name": "drift_diffusion",
+      "config": {
+        "solver": {"length": 0.0001, "n_points": 40, "temperature": 305.0},
+        "doping": {"type": "pn_junction", "N_d_level": 8.0e16, "N_a_level": 4.0e16},
+        "solve": {"applied_voltage": 0.0, "max_iterations": 20, "tolerance": 0.0001, "under_relaxation": 0.35}
+      },
+      "initial_state": null,
+      "metadata": {"template": "drift_diffusion_device"}
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "name": "sensing",
+      "module_name": "sensing",
+      "config": {
+        "grid_x_km": [-5.0, 5.0],
+        "grid_y_km": [-5.0, 5.0],
+        "grid_nx": 24,
+        "grid_ny": 24,
+        "sensor_name": "demo_radar",
+        "sensor_location": [0.0, 0.0],
+        "radar": {"frequency_ghz": 10.0, "power_w": 500.0, "bandwidth_mhz": 5.0, "aperture_diameter_m": 0.8},
+        "target": {"rcs_m2": 1.5, "target_strength_db": 8.0},
+        "solve": {"pfa": 1.0e-6, "weather": "clear", "water_temp_c": 15.0}
+      },
+      "initial_state": null,
+      "metadata": {"template": "sensing_pipeline"}
+    }
+  ],
+  "links": []
+}

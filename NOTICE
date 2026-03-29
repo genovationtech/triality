@@ -1,0 +1,108 @@
+===============================================================================
+                    TRIALITY — Physics Reasoning Engine
+                           Powered by Mentis OS
+===============================================================================
+
+Copyright (c) 2024-2026 Genovation Technological Solutions Pvt Ltd.
+Licensed under the MIT License. See LICENSE for the full license text.
+
+Project:     Triality
+Maintainer:  Genovation Technological Solutions Pvt Ltd.
+Website:     https://genovationsolutions.com
+Contact:     connect@genovationsolutions.com
+
+===============================================================================
+  ABOUT
+===============================================================================
+
+Triality is a computational substrate for physically grounded reasoning. It
+provides a programmable environment in which physics-aware models can analyze,
+evaluate, and reason about systems that obey the laws of the physical
+world. Triality operates as a core module within the Mentis OS ecosystem — a
+broader initiative by Genovation to build intelligent systems that understand
+reality at a fundamental level.
+
+===============================================================================
+  ATTRIBUTION
+===============================================================================
+
+While not required by the MIT License, we respectfully request that projects
+and products incorporating Triality provide visible attribution. Suggested
+formats include:
+
+    "Powered by Triality"
+    "Powered by Triality (Mentis OS)"
+    "Built on Triality — a Genovation product"
+
+Attribution supports the ongoing development of open physical reasoning
+infrastructure and helps others discover the project. For badge artwork and
+additional attribution formats, see ATTRIBUTION.md.
+
+===============================================================================
+  ACADEMIC CITATION
+===============================================================================
+
+If Triality contributes to published research, conference papers, technical
+reports, or academic coursework, please include the following citation:
+
+    Genovation Technological Solutions Pvt Ltd. (2024).
+    "Triality: A Computational Substrate for Physically Grounded Reasoning."
+    Available at: https://genovationsolutions.com
+
+BibTeX:
+
+    @software{triality2024,
+      title     = {Triality: A Computational Substrate for Physically Grounded Reasoning},
+      author    = {{Genovation Technological Solutions Pvt Ltd.}},
+      year      = {2024},
+      url       = {https://genovationsolutions.com}
+    }
+
+===============================================================================
+  THIRD-PARTY COMPONENTS
+===============================================================================
+
+Triality may include or depend on third-party libraries and components, each
+governed by their own respective licenses. A complete list of dependencies and
+their license terms can be found in the project's dependency manifest files
+(e.g., requirements.txt, pyproject.toml). Users are responsible for reviewing
+and complying with all applicable third-party license terms.
+
+===============================================================================
+  COMMERCIAL & ENTERPRISE USE
+===============================================================================
+
+Triality is released under the MIT License and may be used freely in
+commercial products. For organizations requiring dedicated support, custom
+module development, service-level agreements, priority issue resolution,
+or enterprise integration assistance, Genovation offers commercial
+engagement options.
+
+Inquiries:   connect@genovationsolutions.com
+Website:     https://genovationsolutions.com
+
+===============================================================================
+  DISCLAIMER
+===============================================================================
+
+Triality is a physics reasoning and computational analysis system. All outputs
+— including numerical results, analytical data, computational conclusions, and
+system recommendations — are provided on an advisory basis only.
+
+Triality outputs must NOT be used as the sole basis for:
+
+  - Safety-critical engineering decisions
+  - Regulatory filings or compliance certifications
+  - Structural, mechanical, or electrical design sign-offs
+  - Medical, pharmaceutical, or life-sciences determinations
+  - Any decision where failure could result in injury, death, or
+    significant financial loss
+
+All results should be independently verified by qualified professionals
+using validated tools and methodologies appropriate to the application domain.
+
+Genovation Technological Solutions Pvt Ltd. disclaims all liability for
+damages arising from reliance on Triality outputs without independent
+validation. See the LICENSE file for the full warranty disclaimer.
+
+===============================================================================

@@ -1,0 +1,24 @@
+{
+  "1d_poisson_constant_N100": {
+    "name": "1d_poisson_constant_N100",
+    "dimension": 1,
+    "resolution": 100,
+    "l2_norm": 0.9082951015014815,
+    "linf_norm": 0.1249872461993678,
+    "residual": 1.2646063870477523e-12,
+    "iterations": 1,
+    "converged": true,
+    "checksum": "c7458b0da684e296"
+  },
+  "2d_poisson_constant_N30": {
+    "name": "2d_poisson_constant_N30",
+    "dimension": 2,
+    "resolution": 30,
+    "l2_norm": 2.3907996938044263,
+    "linf_norm": 0.14690799509143274,
+    "residual": 1.1379764122869654e-12,
+    "iterations": 1,
+    "converged": true,
+    "checksum": "2357183132435ad6"
+  }
+}
