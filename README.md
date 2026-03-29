@@ -37,10 +37,11 @@ A physics reasoning engine for rapid engineering analysis and decision-making. B
 
 ## Demo
 
-<video controls playsinline width="100%">
-  <source src="https://raw.githubusercontent.com/genovationtech/triality/main/assets/videos/triality_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/1be2737d-51d3-460c-800b-4ceef2132c20
+
+
 
 ---
 
