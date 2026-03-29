@@ -476,44 +476,44 @@ route = router.route(start=(0.01, 0.01), end=(0.09, 0.09))
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     TRIALITY AGENT                           │
-│        Natural Language → Route → Extract → Execute          │
-│                 Scenarios · Templates                        │
+│                     TRIALITY AGENT                          │
+│        Natural Language → Route → Extract → Execute         │
+│                 Scenarios · Templates                       │
 ├─────────────────────────────────────────────────────────────┤
-│                    OBSERVABLE LAYER                           │
-│    Fields → Engineering Quantities · Thresholds · Margins    │
-│           126 observables · 16/16 module coverage            │
+│                    OBSERVABLE LAYER                         │
+│    Fields → Engineering Quantities · Thresholds · Margins   │
+│           126 observables · 16/16 module coverage           │
 ├─────────────────────────────────────────────────────────────┤
-│                      RUNTIME SDK                             │
-│    BaseRuntimeSolver · RuntimeGraph · PhysicsState           │
-│             3 Open Source Runtime Adapters                    │
+│                      RUNTIME SDK                            │
+│    BaseRuntimeSolver · RuntimeGraph · PhysicsState          │
+│             3 Open Source Runtime Adapters                  │
 ├─────────────────────────────────────────────────────────────┤
-│                    PHYSICS KERNEL                             │
-│                                                              │
-│  3D FEM: Poisson3D · Tet4/Tet10/Hex8 · Gmsh · VTU          │
-│                                                              │
-│  Layer 3: Drift-Diffusion Semiconductors                     │
-│           Poisson + Continuity + Transport                   │
-│                                                              │
-│  Layer 2: Physics-Aware Spatial Routing                      │
-│           Field → Cost → A* Optimization                     │
-│                                                              │
-│  Layer 1: Automatic PDE Solving                              │
-│           Classify → Select → Discretize → Solve             │
-│                                                              │
+│                    PHYSICS KERNEL                           │
+│                                                             │
+│  3D FEM: Poisson3D · Tet4/Tet10/Hex8 · Gmsh · VTU           │
+│                                                             │
+│  Layer 3: Drift-Diffusion Semiconductors                    │
+│           Poisson + Continuity + Transport                  │
+│                                                             │
+│  Layer 2: Physics-Aware Spatial Routing                     │
+│           Field → Cost → A* Optimization                    │
+│                                                             │
+│  Layer 1: Automatic PDE Solving                             │
+│           Classify → Select → Discretize → Solve            │
+│                                                             │
 ├─────────────────────────────────────────────────────────────┤
-│                  EXPRESSION SYSTEM                            │
-│         Fields · Operators · Domains · Units · Coupling      │
+│                  EXPRESSION SYSTEM                          │
+│         Fields · Operators · Domains · Units · Coupling     │
 ├─────────────────────────────────────────────────────────────┤
-│              RUST ENGINE (triality_engine)                    │
+│              RUST ENGINE (triality_engine)                  │
 │   Linear solvers · FEM assembly · Mesh I/O · Timesteppers   │
 │   Preconditioners · SpMV kernels · VTK export · Rayon       │
 ├─────────────────────────────────────────────────────────────┤
-│            OPEN SOURCE DOMAIN MODULES                        │
+│            OPEN SOURCE DOMAIN MODULES                       │
 │    EM · Thermal · Structural · Fluid · Aerospace            │
 │    Semiconductor · Sensing · Geospatial · Verification      │
 ├─────────────────────────────────────────────────────────────┤
-│          PRO MODULES (warehouse/modules/)                    │
+│          PRO MODULES (warehouse/modules/)                   │
 │    Advanced EM · Multi-Physics · Nuclear · CFD              │
 │    Fracture · Reentry · Propulsion · Plasma · UQ            │
 └─────────────────────────────────────────────────────────────┘
