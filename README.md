@@ -19,6 +19,7 @@
   <a href="#triality-agent">Agent</a> ·
   <a href="#getting-started">Get Started</a> ·
   <a href="#documentation">Docs</a> ·
+  <a href="#demo">Demo</a> ·
   <a href="#screenshots">Screenshots</a>
   <br/><br/>
   <sub>By <strong>Genovation Technological Solutions Pvt Ltd</strong> · Powered by <strong>Mentis OS</strong></sub>
@@ -610,6 +611,12 @@ Full OpenAPI docs at `http://127.0.0.1:8510/docs`.
 | [`docs/BUSINESS.md`](docs/BUSINESS.md) | Business value and target markets |
 | [`docs/examples.md`](docs/examples.md) | Worked example gallery |
 | [`docs/rust_backend.md`](docs/rust_backend.md) | Rust acceleration engine |
+
+---
+
+## Demo
+
+<video src="assets/videos/triality_video.mp4" controls width="100%"></video>
 
 ---
 
