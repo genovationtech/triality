@@ -35,6 +35,25 @@ A physics reasoning engine for rapid engineering analysis and decision-making. B
 
 ---
 
+## Demo
+
+https://github.com/genovationtech/triality/raw/main/assets/videos/triality_video.mp4
+
+---
+
+## Screenshots
+
+![Screenshot 1](assets/images/screenshot1.png)
+![Screenshot 2](assets/images/screenshot2.png)
+![Screenshot 3](assets/images/screenshot3.png)
+![Screenshot 4](assets/images/screenshot4.png)
+![Screenshot 5](assets/images/screenshot5.png)
+![Screenshot 6](assets/images/screenshot6.png)
+![Screenshot 7](assets/images/screenshot7.png)
+![Screenshot 8](assets/images/screenshot8.png)
+
+---
+
 ## What Triality Is
 
 Triality is **a real-time physics engine for engineering decisions.**
@@ -611,25 +630,6 @@ Full OpenAPI docs at `http://127.0.0.1:8510/docs`.
 | [`docs/BUSINESS.md`](docs/BUSINESS.md) | Business value and target markets |
 | [`docs/examples.md`](docs/examples.md) | Worked example gallery |
 | [`docs/rust_backend.md`](docs/rust_backend.md) | Rust acceleration engine |
-
----
-
-## Demo
-
-<video src="assets/videos/triality_video.mp4" controls width="100%"></video>
-
----
-
-## Screenshots
-
-![Screenshot 1](assets/images/screenshot1.png)
-![Screenshot 2](assets/images/screenshot2.png)
-![Screenshot 3](assets/images/screenshot3.png)
-![Screenshot 4](assets/images/screenshot4.png)
-![Screenshot 5](assets/images/screenshot5.png)
-![Screenshot 6](assets/images/screenshot6.png)
-![Screenshot 7](assets/images/screenshot7.png)
-![Screenshot 8](assets/images/screenshot8.png)
 
 ---
 
